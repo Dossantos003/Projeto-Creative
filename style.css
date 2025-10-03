@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter, San-Serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+    
+
+    & nav {
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        padding: 55px 22px;
+        font-weight: 400;
+        align-items: center;
+        
+
+        & .active {
+            color: black;
+            font-weight: 600;
+            text-transform: bold;
+        }
+
+         & a {color: hsl(220, 9%, 46%);
+
+         }
+
+         & a:last-child {
+            padding: 13px 22px 13px 22px;
+            border-radius: 8px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+         }
+    }
+
+}
+
+main {
+    
+
+    .home {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        padding:55px 80px; 
+        
+         
+        & h1 {
+            font-weight: 700;
+            font-size: 70px;
+            justify-content: center;
+            text-align: center;
+            padding: 70px 450px;
+            text-align: left;
+    }
+}
+}
